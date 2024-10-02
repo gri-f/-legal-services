@@ -1,0 +1,23 @@
+.navigation {
+  max-width: 600px;
+  width: 100%;
+  &__list {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    list-style: none;
+  }
+  &__item {
+    max-width: 100px;
+    width: 100%;
+    text-align: center;
+  }
+  &__link {
+    padding: 5px;
+    font-size: 16px;
+    text-decoration: none;
+    color: #505050;
+  }
+}
