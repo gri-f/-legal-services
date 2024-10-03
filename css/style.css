@@ -165,7 +165,57 @@
 .social div:hover {
   cursor: pointer;
 }
+.social div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 50px;
+  height: 50px;
+  border: 1px dashed gray;
+  border-radius: 5px;
+}
 .social__size {
   width: 35px;
   height: 35px;
+  -webkit-transition: 0.5s linear;
+  transition: 0.5s linear;
+}
+.social__whatsapp:hover {
+  border: none;
+}
+.social__whatsapp:hover svg {
+  fill: green;
+  -webkit-transform: scale(1.2);
+      -ms-transform: scale(1.2);
+          transform: scale(1.2);
+  -webkit-transition: 0.5s linear;
+  transition: 0.5s linear;
+}
+.social__viber:hover {
+  border: none;
+}
+.social__viber:hover svg {
+  fill: green;
+  -webkit-transform: scale(1.2);
+      -ms-transform: scale(1.2);
+          transform: scale(1.2);
+  -webkit-transition: 0.5s linear;
+  transition: 0.5s linear;
+}
+.social__telegram:hover {
+  border: none;
+}
+.social__telegram:hover svg {
+  fill: green;
+  -webkit-transform: scale(1.2);
+      -ms-transform: scale(1.2);
+          transform: scale(1.2);
+  -webkit-transition: 0.5s linear;
+  transition: 0.5s linear;
 }/*# sourceMappingURL=style.css.map */
